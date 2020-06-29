@@ -1,0 +1,34 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickjhorman/chatApplication-.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Erick jhorman Romero jojoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickjhorman/chatApplication-/issues"
+  },
+  "homepage": "https://github.com/erickjhorman/chatApplication-#readme",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "morgan": "^1.10.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
